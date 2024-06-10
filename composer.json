@@ -1,0 +1,24 @@
+{
+  "name": "flucava/cqrs-core",
+  "description": "CQRS core logic for all flucava libraries, bundles and services",
+  "type": "library",
+  "require": {
+    "psr/container": "^2.0"
+  },
+  "suggest": {
+    "psr/event-dispatcher": "Should be used for handling events emitted by command or query handlers"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Flucava\\Core\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Philipp Marien",
+      "email": "philipp.marien@bootszentrum-hamburg.de"
+    }
+  ],
+  "minimum-stability": "stable"
+}
