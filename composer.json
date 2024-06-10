@@ -3,6 +3,7 @@
   "description": "CQRS core logic for all flucava libraries, bundles and services",
   "type": "library",
   "require": {
+    "php": ">=8.2",
     "psr/container": "^2.0"
   },
   "suggest": {
