@@ -1,15 +1,14 @@
 <?php
 
-namespace Flucava\Core;
+namespace Flucava\CqrsCore;
 
-use Flucava\Core\Query\HandlerInterface;
 use LogicException;
 use Psr\Container\ContainerInterface;
 use ReflectionClass;
 use ReflectionException;
 use Psr\Container\ContainerExceptionInterface;
 use Psr\Container\NotFoundExceptionInterface;
-use Flucava\Core\Attribute\AbstractAction;
+use Flucava\CqrsCore\Attribute\AbstractAction;
 
 /**
  * @author Philipp Marien

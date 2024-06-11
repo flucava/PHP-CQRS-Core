@@ -1,6 +1,6 @@
 <?php
 
-namespace Flucava\Core\Attribute;
+namespace Flucava\CqrsCore\Attribute;
 
 use Attribute;
 

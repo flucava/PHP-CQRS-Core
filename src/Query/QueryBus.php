@@ -1,10 +1,10 @@
 <?php
 
-namespace Flucava\Core\Query;
+namespace Flucava\CqrsCore\Query;
 
-use Flucava\Core\AbstractHandlerBus;
-use Flucava\Core\Attribute\Query;
-use Flucava\Core\Attribute\QueryHandler;
+use Flucava\CqrsCore\AbstractHandlerBus;
+use Flucava\CqrsCore\Attribute\Query;
+use Flucava\CqrsCore\Attribute\QueryHandler;
 use Psr\Container\ContainerInterface;
 
 /**

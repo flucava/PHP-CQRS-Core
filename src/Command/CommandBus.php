@@ -1,10 +1,10 @@
 <?php
 
-namespace Flucava\Core\Command;
+namespace Flucava\CqrsCore\Command;
 
-use Flucava\Core\AbstractHandlerBus;
-use Flucava\Core\Attribute\Command;
-use Flucava\Core\Attribute\CommandHandler;
+use Flucava\CqrsCore\AbstractHandlerBus;
+use Flucava\CqrsCore\Attribute\Command;
+use Flucava\CqrsCore\Attribute\CommandHandler;
 use Psr\Container\ContainerInterface;
 
 /**

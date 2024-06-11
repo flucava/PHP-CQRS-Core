@@ -1,11 +1,11 @@
 <?php
 
-namespace Flucava\Core\Query;
+namespace Flucava\CqrsCore;
 
 /**
  * @author Philipp Marien
  */
 interface HandlerInterface
 {
-    public function handle(object $query): ?object;
+    public function handle(object $action): ?object;
 }
