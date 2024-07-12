@@ -66,7 +66,7 @@ abstract class AbstractHandlerBus
         /** @var AbstractAction $attribute */
         $attribute = $attributes[0]->newInstance();
         $resultClass = $attribute->getResultClass();
-        if (($result && !$result instanceof $resultClass) || (!$result && $attribute->isResultRequired())) {
+        if (($result && $resultClass && !$result instanceof $resultClass) || (!$result && $attribute->isResultRequired())) {
             throw new LogicException('Invalid result provided', 20240610222016);
         }
 
